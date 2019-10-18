@@ -1,0 +1,8 @@
+CREATE TABLE MEMBER (
+  CUSRNAME     VARCHAR(20)   COMMENT '고객이름', -- 고객이름
+  IDENTIFY    VARCHAR(20) NOT NULL COMMENT '고객아이디', -- 고객아이디
+  CUSPASSWORD    VARCHAR(30) NOT NULL COMMENT '고객비밀번호', -- 고객비밀번호
+  CUSPHONE  INT NOT NULL COMMENT '고객휴대전화번호', -- 고객휴대전화번호
+  CRE_DATE DATETIME NOT NULL COMMENT '가입날짜'  -- 고객가입번호
+)
+COMMENT '고객관리';
